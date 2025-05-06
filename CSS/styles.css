@@ -1,0 +1,32 @@
+/* Target main header only */
+
+body > header {
+position: sticky;
+top: 0;
+background-color: #fff;
+
+}
+
+
+section#hero h1 {
+    min-height: 25rem;
+    background-color :var(--pico-primary);
+    font-size: 5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+}
+
+section#likes div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+   
+}
+
+section#likes article { 
+    flex: 1;
+}
+
