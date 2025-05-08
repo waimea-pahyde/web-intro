@@ -30,3 +30,14 @@ section#likes article {
     flex: 1;
 }
 
+/*  DEMOS =========== */
+section.demo div{
+    display: flex;
+    gap: 1rem;
+    background-color: #cabadf;
+}
+
+section.demo div p{
+    font-size: 5rem;
+    background-color: var(--pico-primary);
+}
