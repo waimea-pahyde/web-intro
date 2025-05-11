@@ -35,9 +35,52 @@ section.demo div{
     display: flex;
     gap: 1rem;
     background-color: #cabadf;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 section.demo div p{
     font-size: 5rem;
     background-color: var(--pico-primary);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    line-height: 1;
+    width: 1.2em;
+    margin: 0;
+    text-align: center;
+}
+
+section#task2 div {
+    justify-content: center;
+}
+
+section#task3 div {
+    justify-content: space-evenly;
+}
+
+section#task4 div {
+    justify-content: right;
+}
+
+section#task5 div {
+    align-items: flex-start;
+}
+
+section#task6 div {
+    align-items: flex-end;
+}
+
+section#task7 div {
+    align-items: center;
+    justify-content: center;
+}
+
+section#task8 div {
+flex-wrap: wrap;
+}
+
+section.demo#task8 div{
+        background-color: #cabadf;
+    height: auto;
 }
